@@ -129,7 +129,7 @@ export default function ProjectDescription({
                         translateY: "2rem",
                     }}>
                     <div className='flex gap-1 align-bottom opacity-60'>
-                        {renderTeamLabel()}
+                        {/* {renderTeamLabel()} */}
                     </div>
                     <div className='w-fit text-3xl font-light lg:text-5xl'>
                         <span>0{index}. </span>
@@ -208,7 +208,7 @@ export default function ProjectDescription({
                         },
                     }}
                     className='mt-8 flex flex-wrap justify-center gap-4 md:gap-8 lg:justify-end'>
-                    {renderCta()}
+                    {/* {renderCta()} */}
                 </motion.div>
             </motion.div>
         </div>
