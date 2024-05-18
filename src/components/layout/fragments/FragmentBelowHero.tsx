@@ -1,4 +1,4 @@
-export default function FragmentBelowHero() {
+export function FragmentBelowHero() {
     return (
         <div
             style={{
