@@ -8,7 +8,7 @@ type FragmentProjectProps = {
     index: number;
 };
 
-export default function FragmentProject({
+export function FragmentProject({
     project,
     index,
 }: FragmentProjectProps) {
