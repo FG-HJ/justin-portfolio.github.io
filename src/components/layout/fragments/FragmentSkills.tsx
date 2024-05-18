@@ -15,7 +15,7 @@ const fullSizePadding = 0.3;
 
 const planetPerRing = 5;
 
-export default function FragmentSkills() {
+export function FragmentSkills() {
     const [currentSelectedIdx, setCurrentSelectedIdx] = useState(-1);
     const [filters, setFilters] = useState<SkillType[]>([]);
 
